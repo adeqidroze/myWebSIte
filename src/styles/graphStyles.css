@@ -1,0 +1,23 @@
+/* Apply modern and responsive styles to the chart container */
+.chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the chart title */
+.chart-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Make the chart canvas responsive */
+.chart-canvas {
+    width: 100%;
+    height: auto;
+}

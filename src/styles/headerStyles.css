@@ -1,0 +1,83 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a237e;
+    color: #b3e5fc;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff6b6b, #6befff); /* Vibrant gradient from left to right */
+    -webkit-background-clip: text; /* Clip the text to the background gradient */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    display: inline-block;
+}
+
+.login-button,
+.register-button {
+    padding: 8px 15px;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+    .user-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+    .nav-links ul li {
+        margin-right: 20px;
+    }
+
+        .nav-links ul li a {
+            text-decoration: none;
+            color: #b3e5fc;
+        }
