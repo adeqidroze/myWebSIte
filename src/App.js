@@ -1,14 +1,14 @@
 import React from 'react';
-import './Routes.js';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { MyRoutes } from './Routes.js';
 
 
 const App = () => {
     return (
         <>
             <Header />
-            <myRoutes />
+            <MyRoutes />
             <Footer />
         </>
         
